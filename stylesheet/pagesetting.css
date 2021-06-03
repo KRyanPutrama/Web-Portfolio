@@ -1,6 +1,6 @@
 :root {
     --black: black;
-    --lightBlue : rgb(27, 96, 187);
+    --lightBlue : rgb(59, 135, 233);
     --lightOrange: rgb(253, 199, 48);
     --darkOrange: darkgoldenrod;
     --yellow: rgba(255, 217, 3, 0.911);
@@ -18,9 +18,10 @@
     --borderColor: var(--black);
     --fontColor: var(--black);
     --main-theme: var(--lightBlue);
-    --header-theme: var(--darkBlue);
-    --footer-theme: var(--darkBlue);
-    --secondary-theme: var(--lightOrange);
+    --header-theme: var(--yellow);
+    --footer-theme: var(--yellow);
+    --circle-theme: var(--white);
+    --secondary-theme: var(--yellow);
     --third-theme: var(--yellow);
     --shadow-color: var(--darkOrange);
 }
@@ -33,6 +34,7 @@
     --main-theme: var(--darkGreen);
     --header-theme: var(--black);
     --footer-theme: var(--black);
+    --circle-theme: var(--white);
     --secondary-theme: var(--gray);
     --third-theme: var(--green);
     --shadow-color: var(--lightGreen);

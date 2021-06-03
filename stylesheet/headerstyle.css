@@ -29,6 +29,11 @@
     padding-left: 20px;
 }
 
+.header-logo h1{
+    font-weight: lighter;
+    font-family: "Rock Salt";
+}
+
 .header-menus ul {
     display: flex;
     flex-direction: row;
@@ -44,6 +49,7 @@
     margin: 5px;
     border: 1px solid var(--borderColor);
     border-radius: 40px;
+    font-weight: bolder;
 }
 
 .header-menus a:hover {
@@ -78,7 +84,7 @@
 }
 
 .ball-label .ball {
-	background-color: var(--darkOrange);
+	background-color: var(--lightBlue);
 	border-radius: 50%;
 	position: absolute;
 	top: 3px;
@@ -107,7 +113,7 @@
 
 .circle-to-box {
     position: fixed;
-    background-color: var(--secondary-theme);
+    background-color: var(--circle-theme);
     opacity: 0.8;
     width: 200px;
     height: 200px;
@@ -170,6 +176,10 @@
     height: auto;
 }
 /* menus nav */
+
+.fa-bars {
+    color: black;
+}
 
 .menus {
     width: 500px;

@@ -4,9 +4,77 @@
     }
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 768px) {
+    /* header part */
+    .header-logo h1{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+
+    .header-menus a{
+        visibility: collapse;
+    }
+
+    .circle-to-box {
+        width: 150px;
+        height: 150px;
+    }
+    
+    /* top part*/
+    .top-wrapper {
+        height: 700px;
+    }
+
+    .img-top {
+        width: 100px;
+        height: 150px;
+    }
+    .left-side h3{
+        font-size: 25px;
+    }
+    .left-side h1 {
+        font-size: 20px;
+    }
+
+    .left-side p{
+        font-size: 15px;
+    }
+
+    .right-side {
+        grid-template-columns: 150px 100px;
+        grid-template-rows: 75px 100px ;
+        padding-top: 150px
+    }
+
+    .box1 .font1{
+        font-size:20px;
+    }
+    .box1 .font2{
+        font-size:20px;
+    }
+    .box1 .font3{
+        font-size:20px;
+    }
+    .box2 .font4{
+        font-size:20px;
+    }
+    .box2 .font5{
+        font-size:20px;
+    }
+    .box2 .font6{
+        font-size:20px;
+    }
+    .box3 .font7{
+        font-size:20px;
+    }
+    .box4 .font8{
+        font-size:15px;
+    }
+
+    /* about content */
+    
     .about-wrapper {
-        height: 1500px;
+        height: 700px;
     }
 
     .footer-container {
@@ -14,6 +82,15 @@
     }
 
     .about-box-container {
-        max-width: 50%;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+    }
+
+    .about-box h3{
+        font-size: 10px;
+    }
+    
+    .about-box p {
+        display: none;
     }
 }
