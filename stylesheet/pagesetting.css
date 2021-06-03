@@ -1,0 +1,62 @@
+:root {
+    --black: black;
+    --lightBlue : rgb(27, 96, 187);
+    --lightOrange: rgb(253, 199, 48);
+    --darkOrange: darkgoldenrod;
+    --yellow: rgba(255, 217, 3, 0.911);
+    --darkBlue: darkblue;
+
+
+    --white: white;
+    --darkGreen: rgb(3, 73, 3);
+    --lightGreen: rgb(8, 212, 8);
+    --green: green;
+    --gray: rgb(59, 71, 68);
+}
+
+.light-mode {
+    --borderColor: var(--black);
+    --fontColor: var(--black);
+    --main-theme: var(--lightBlue);
+    --header-theme: var(--darkBlue);
+    --footer-theme: var(--darkBlue);
+    --secondary-theme: var(--lightOrange);
+    --third-theme: var(--yellow);
+    --shadow-color: var(--darkOrange);
+}
+
+
+
+.dark-mode{
+    --borderColor: var(--white);
+    --fontColor: var(--white);
+    --main-theme: var(--darkGreen);
+    --header-theme: var(--black);
+    --footer-theme: var(--black);
+    --secondary-theme: var(--gray);
+    --third-theme: var(--green);
+    --shadow-color: var(--lightGreen);
+
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+div, h1, h2, h3, span, header {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: var(--fontColor);
+}

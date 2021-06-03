@@ -2,17 +2,21 @@
 // header function hide and show
 
 function hideShow() {
+    // trigger
     var checkBox = document.getElementById("test");
-    // Get the output text
+    // target this function run by id
     var content = document.getElementById("content");
-    var barIcon = document.getElementById("bar-icon")
+    var barIcon = document.getElementById("bar-icon");
+    var headerMenu = document.getElementById("header-menus");
     // If the checkbox is checked, display the output text
     if (checkBox.checked == true){
       content.style.visibility = "visible" ;
       barIcon.style.visibility = "hidden" ;
+      headerMenu.style.visibility = "hidden";
     } else {
       content.style.visibility = "hidden";
       barIcon.style.visibility = "visible" ;
+      headerMenu.style.visibility = "visible";
     }
     console.log("ITS WORKING")
   }

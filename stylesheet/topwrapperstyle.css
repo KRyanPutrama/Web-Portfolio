@@ -1,7 +1,3 @@
-body {
-    position: relative;
-}
-
 .top-wrapper {
     position: relative;
     background: var(--main-theme);
@@ -17,7 +13,6 @@ body {
     display: flex;
 }
 
-
 .img-top {
     padding: 10px;
     width: 200x;
@@ -30,6 +25,21 @@ body {
     border-right: 1px solid var(--borderColor);
 }
 
+.left-side h3 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left-side h1 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-side p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .right-side {
     display: grid;
     grid-template-columns: auto auto;
@@ -37,13 +47,54 @@ body {
     text-align: center;
 }
 
+/* font styling */
+
 .box1 {
     border-right: 1px solid var(--borderColor);
     border-bottom: 1px solid var(--borderColor);
 }
 
+.box1 .font1 {
+    font-family: Limelight, cursive;
+    font-size: 40px;
+}
+
+.box1 .font2 {
+    font-family: Lobster, cursive;
+    font-size: 40px;
+}
+
+.box1 .font3 {
+    font-family: "Sigmar One", cursive;
+    font-size: 40px;
+}
+
+.box2 .font4 {
+    font-family: Limelight, cursive;
+    font-size: 40px;
+}
+
+.box2 .font5 {
+    font-family: Courgette, cursive;
+    font-size: 40px;
+}
+
+.box2 .font6 {
+    font-family: Satisfy, cursive;
+    font-size: 40px;
+}
+
+.box3 .font7{
+    font-family: Caveat, cursive;
+    font-size: 40px;
+}
+
 .box4 {
     border-left: 1px solid var(--borderColor);
     border-top: 1px solid var(--borderColor);
-    
+}
+
+.box4 .font8 {
+    font-family: "Rock Salt", cursive;
+    font-size: 40px;
 }
