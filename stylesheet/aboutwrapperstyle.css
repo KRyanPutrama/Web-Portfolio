@@ -19,7 +19,7 @@
     width: 100%;
     font-size: 3em;
     text-align: center;
-    border-bottom: 2px solid var(--borderColor);
+    border-bottom: 2px solid var(--white);
 }
 
 

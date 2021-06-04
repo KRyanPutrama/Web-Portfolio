@@ -3,15 +3,16 @@
     background: var(--main-theme);
     max-width: 100%;
     height: auto;
-    color: var(--fontColor  );
+    color: var(--fontColor);
 }
 
 .contact-container{
+    max-width: 100%;
     display: grid;
     grid-template-columns: auto auto;
     grid-row: auto auto;
-    padding: 40px 15% 5% 15%;
-    grid-gap: 20px
+    grid-gap: 20px;
+    padding: 0 10% 5% 10%;
 }
 
 .row1 {

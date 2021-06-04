@@ -145,7 +145,7 @@
     }
 
     .header-logo h1{
-        font-size: 14px;
+        font-size: 8px;
     }
 
     .circle-to-box {
@@ -169,6 +169,14 @@
     }
 
     /* about wrapper part */
+    .about-wrapper {
+        height: 750px;
+    }
+
+    .about-wrapper h2 {
+        font-size: 30px;
+    }
+
     .about-box-container {
         display: flex;
         flex-direction: column-reverse;
@@ -185,16 +193,24 @@
         padding: 5px;
     }
 
+    /* portfolio part */
+    .section-title h2 {
+        font-size: 30px;
+    }
+
     /* contact wrapper part */
+    .contact-container{
+        text-align: center;
+    }
 
     .contact-container {
-        padding: 0 0 20px 0;
-        grid-template-columns: 150px 150px;
-        grid-row: 100px 100px;
+        padding: 0;
+        grid-template-columns: auto auto;
+        grid-row: auto auto;
     }
 
     .contact-container h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .info-user h3{
@@ -208,7 +224,7 @@
     .footer-container {
         display: block;
         margin-left: 100px;
-        padding-top: 50px;
+        padding-top: 35px;
         text-align: center;
         height: auto;
     }
@@ -225,18 +241,24 @@
 
     .footer-middle .box-icon ul{
         display: flex;
-        justify-content: baseline;
+        justify-content: center;
         font-size: 10px;
-        max-width: 30%;
-        display: none;
     }
 
     .footer-middle .box-icon ul .round {
-        margin: 0;
+        margin: 0 5px;
         padding: 0;
     }
 
     .footer-right {
         display: none;
+    }
+}
+
+@media all and (min-width: 319px) and (max-width: 424px) {
+    .contact-container {
+        padding: 0;
+        grid-template-columns: 150px 150px;
+        grid-row: 100px 100px;
     }
 }
